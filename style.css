@@ -1,0 +1,86 @@
+body{
+  background-image: url("IMG/background.jpg");
+  background-size: cover;
+
+}
+
+.container{
+  width: 800px;
+  height: 550px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 50px 50px 50px 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo{
+  width: 170px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-text{
+  font-family: 'Mulish'; sans-serif;
+  font-size: 22px;
+  color: #40D61A;
+  text-align: center;
+  margin: 1px;
+}
+
+.button-tabs{
+  text-align: center;
+  background-color: #40D61A;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+button{
+  font-size: 9px;
+}
+
+section{
+  box-sizing: border-box;
+  padding: 10px;
+}
+.nome, .text, .charge-stat{
+  font-family: 'Mulish', sans-serif;
+  color: white;
+  padding: 2px;
+}
+
+.nome{
+  font-weight: bold;
+}
+
+.text, .charge-stat{
+  display: block;
+}
+
+.text, .text:before, .charge-stat{
+  content: '\21A6';
+  font-size: 12px;
+}
+
+.barra-orange{
+  width: 250px;
+  height: 20px;
+  background-color: #FC8F32;
+  border-radius: 5px;
+}
+
+.barra-green{
+  width: 400px;
+  height: 20px;
+  background-color: #40D61A;
+  border-radius: 5px;
+}
+
+.barra-pink{
+  width: 100px;
+  height: 20px;
+  background-color: #DE5D83;
+  border-radius: 5px;
+}
